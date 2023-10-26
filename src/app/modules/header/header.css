@@ -1,0 +1,50 @@
+
+  
+
+
+.logo {
+  text-align: center;
+}
+
+.logo h4 {
+  font-size: 24px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 1rem;
+  margin-bottom: 0;
+}
+
+.logo h6 {
+  font-size: 15px;
+  font-family: cursive;
+  margin-bottom: 0;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar TextField {
+  flex: 1;
+  margin-right: 10px;
+}
+
+
+@media (max-width: 300px) {
+  .logo {
+    text-align: left;
+  }
+
+  .logo h4 {
+    font-size: 20px;
+    line-height: 1.2rem;
+  }
+
+  .logo h6 {
+    font-size: 12px;
+  }
+
+  .search-bar {
+    margin-top: 10px;
+  }
+}

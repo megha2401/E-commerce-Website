@@ -1,0 +1,47 @@
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.footer-grid {
+  flex: 1;
+  padding: 8px;
+
+}
+
+
+
+.footer-grid h4 {
+  font-size: 18px;
+  margin-top: 0;
+  color:deeppink;
+}
+
+
+.footer-address {
+  flex: 1.5;
+  padding: 10px;
+  border-left: 1px solid rgb(10, 10, 48);
+}
+
+.footer-address h4 {
+  font-size: 18px;
+  margin-bottom: 1rem;
+  color: deeppink;
+}
+
+
+.footer-container-two {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  border-top: 1px solid rgb(10, 10, 48);
+}
+.MuiListItemText-root{
+  font-size:1rem;
+}

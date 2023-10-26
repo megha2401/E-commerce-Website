@@ -1,0 +1,45 @@
+
+  
+.image-gallery {
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:grey; 
+   
+    
+  }
+  
+  
+  .image.large {
+    max-width: 100%;
+    max-height: 400px; 
+    cursor: pointer;
+    transition: opacity 0.3s;
+  }
+  
+  
+  .image.small {
+    width: 70px; 
+    height: 40px;  
+    cursor: pointer; 
+    border: 1px solid #ccc; 
+    transition: opacity 0.3s;
+  }
+  
+  .image-wrapper {
+    
+    display:flex; 
+    justify-content: center;
+    padding: 0.5rem;
+    flex-direction: column;
+    border-radius: 8px; 
+   
+  }
+ 
+  
+  
+  .image.small:hover,
+  .image.large:hover {
+    opacity: 0.7; 
+  }
